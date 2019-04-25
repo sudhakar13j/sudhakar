@@ -1,7 +1,7 @@
-public class Demofile
+class Demofile
 {
 public static void main(String args[])
 {
-System.out.println("Demo code");
+System.out.println("Democode using GIT");
 }
 }
