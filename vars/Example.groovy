@@ -4,16 +4,11 @@
 //mail bcc: '', body: 'Demo', cc: from, from: from , replyTo: '', subject: subject, to: to
 //println "email sent successfully"
 //}
-def call()
-{
-Example ex = new Example()
-}
 	
 class Example { 
-   //static void main(String[] args) { 
+   static void main(String[] args) { 
       // Example of an Integer using def 
-    def Example()
-	{
+    
 	def a = 100; 
       println(a); 
 		
@@ -29,5 +24,5 @@ class Example {
       def d = "HelloWorld"; 
       println(d); 
 	}
-   //} 
+    
 } 
