@@ -6,7 +6,7 @@
 //}
 
 class Example { 
-   public static void main(String[] args) { 
+    static void main(String[] args) { 
       // Example of an Integer using def 
     	def a = 100; 
       println(a); 
