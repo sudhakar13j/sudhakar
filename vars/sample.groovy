@@ -1,4 +1,6 @@
-def call()
+def call(from, to, subject)
 {
-println "Welcome. sample"
+println "Welcome. mail"
+mail bcc: '', body: 'Demo', cc: from, from: from , replyTo: '', subject: subject, to: to
+println "email sent successfully"
 }
