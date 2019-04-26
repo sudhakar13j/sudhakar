@@ -6,10 +6,9 @@
 //}
 	
 class Example { 
-   static void main(String[] args) { 
+   public static void main(String[] args) { 
       // Example of an Integer using def 
-    
-	def a = 100; 
+    	def a = 100; 
       println(a); 
 		
       // Example of an float using def 
