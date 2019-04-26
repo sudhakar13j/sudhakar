@@ -4,7 +4,7 @@
 //mail bcc: '', body: 'Demo', cc: from, from: from , replyTo: '', subject: subject, to: to
 //println "email sent successfully"
 //}
-	
+
 class Example { 
    public static void main(String[] args) { 
       // Example of an Integer using def 
@@ -22,6 +22,6 @@ class Example {
       // Example of an String using def 
       def d = "HelloWorld"; 
       println(d); 
-	}
-    
+	
+}
 } 
