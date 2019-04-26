@@ -1,5 +1,6 @@
-node
+package Email
+def SendEmail(String from, String  to, String subject)
 {
-mail bcc: '', body: 'Demo', cc: 'deepak.kumar@ravsoftsolutions.com', from: 'sudhakar.anandan@ravsoftsolutions.com', replyTo: '', subject: 'Demo Mail', to: 'sudhakar.anandan@ravsoftsolutions.com'
+mail bcc: '', body: 'Demo', cc: 'deepak.kumar@ravsoftsolutions.com', from: from , replyTo: '', subject: subject, to: to
 echo 'email sent successfully'
 }
