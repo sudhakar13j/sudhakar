@@ -13,8 +13,8 @@ class Example {
 	  
       //Printing the value of the variables to the console 
       println("The value of x is " + x + "The value of X is " + X);  
-     println "Welcome. mail"
-mail bcc: '', body: 'Demo', cc: from, from: from , replyTo: '', subject: subject, to: to
-println "email sent successfully"
+     //println "Welcome. mail"
+//mail bcc: '', body: 'Demo', cc: from, from: from , replyTo: '', subject: subject, to: to
+//println "email sent successfully"
    }
 }
