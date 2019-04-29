@@ -4,6 +4,7 @@ def call()
  {
   stage('Sample')
   {
+   def obj = new Scripts.testgroovy()
    echo "Welcome to Jenkins"
   }
   stage('SendEmail')
